@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-[#242424] text-stone-200 box-border;
+}
+
+button {
+  @apply hover:shadow-xl active:translate-y-1 hover:transition-transform;
+}
