@@ -11,5 +11,5 @@ button {
 }
 
 .stats {
-  @apply py-5 w-[45rem] rounded-full flex justify-center items-center text-3xl text-white;
+  @apply py-5 w-[35rem] rounded-full flex items-center text-3xl text-white;
 }
