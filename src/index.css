@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 :root {
-  @apply bg-[#242424] text-stone-200 box-border;
+  @apply box-border;
 }
 
 button {
   @apply hover:shadow-xl active:translate-y-1 hover:transition-transform;
+}
+
+.stats {
+  @apply py-5 w-[45rem] rounded-full flex justify-center items-center text-3xl text-white;
 }
